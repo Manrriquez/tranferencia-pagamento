@@ -8,21 +8,68 @@ import img4 from './img/img4/usuario4.png'
 
 function Usuarios() {
   return (
-    <div className="Container">
-      <div className="Perfil">
-        <img className="img" src={img} /> 
-      </div>
-         <div className="Usuarios">
-           <div className="dados">
-              <p className="name">Nome de Usuario: Lucas Souza</p>
-              <p className="id">ID: 1002</p>
-              <p className="username">Username: @LucasSouza12</p>
+   <>
+     <div className="Container">
+        <div className="Perfil">
+          <img className="img" src={img} /> 
+        </div>
+        <div className="Usuarios">
+          <div className="dados">
+            <p className="name">Nome de Usuario: Lucas Souza</p>
+            <p className="id">ID: 1002</p>
+            <p className="username">Username: @LucasSouza12</p>
+            <div className="btn">
+              <button type="button">Pagar</button>
+            </div>
+          </div> 
+        </div>
+     </div>
+      <div className="Container">
+        <div className="Perfil">
+          <img className="img" src={img2} />
+        </div>
+        <div className="Usuarios">
+            <div className="dados">
+              <p className="name">Nome de Usuario: Roberta Oliveira</p>
+              <p className="id">ID: 1003</p>
+              <p className="username">Username: @RobertaOliveira</p>
               <div className="btn">
-                <button type="button">Pagar</button>
+                <button className="button" type="button">Pagar</button>
               </div>
-           </div> 
-         </div>
-    </div>
+            </div>
+        </div>
+      </div>
+      <div className="Container">
+        <div className="Perfil">
+          <img className="img" src={img3} />
+        </div>
+        <div className="Usuarios">
+            <div className="dados">
+              <p className="name">Nome de Usuario: Paula Mesquita</p>
+              <p className="id">ID: 1003</p>
+              <p className="username">Username: @MesquitaPaula</p>
+              <div className="btn">
+                <button className="button" type="button">Pagar</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div className="Container">
+        <div className="Perfil">
+          <img className="img" src={img4} />
+        </div>
+        <div className="Usuarios">
+            <div className="dados">
+              <p className="name">Nome de Usuario: João Gustavo</p>
+              <p className="id">ID: 1003</p>
+              <p className="username">Username: @JoaoGustavo</p>
+              <div className="btn">
+                <button className="button" type="button">Pagar</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </>
   )
 }
 
