@@ -4,6 +4,8 @@ import './index.css';
 import Usuarios from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './styles.scss';
+
 ReactDOM.render(
   <React.StrictMode>
     <Usuarios />

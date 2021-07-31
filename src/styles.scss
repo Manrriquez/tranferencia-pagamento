@@ -1,0 +1,24 @@
+.modal {
+    width: 50%;
+    height: 60vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    .container {
+        background-color: blanchedalmond;
+        color: black;
+        width: 50%;
+        height: 60%;
+        border-radius: 20px;
+
+        .close {
+            background-color: transparent;
+        }
+    }
+}
